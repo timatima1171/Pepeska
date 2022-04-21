@@ -33,7 +33,7 @@ def inf(message):
 
     @bot.callback_query_handler(func=lambda call: call.data == 'begin')
     def callback_inline_first(call):
-        number(1)
+        pass
 
     @bot.callback_query_handler(func=lambda call: call.data == 'top')
     def callback_inline_first(call):
